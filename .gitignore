@@ -1,0 +1,56 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Distribution
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+src/db/
+*.db
+*.sqlite
+
+# Claude & qsv
+.claude/
+.omc/
+.qsv-session-log.md
+CLAUDE.md
+.cowork-instructions.md
+
+# Documentation files (keep in repo)
+# CAI.txt
+# compass-ai-medium-article.md
+# cai2.txt
+# cai3.txt
+
+# Media
+*.png
+*.jpg
+*.jpeg
+*.gif
